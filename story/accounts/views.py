@@ -3,7 +3,6 @@ from django.contrib.auth import login, logout, authenticate
 from django.contrib.auth.forms import AuthenticationForm, UserCreationForm
 # Create your views here.
 
-# Function based views to Class Based Views
 
 def login_view(request, *args, **kwargs):
     form = AuthenticationForm(request, data=request.POST or None)
