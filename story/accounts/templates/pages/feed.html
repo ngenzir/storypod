@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% if request.user.is_authenticated %}
+    <div id='storypod-feed'></div>
+{% else %}
+    <div id='storypod'></div>
+{% endif %}
+
+{% endblock content %}
