@@ -5,7 +5,7 @@ from .views import (
 )
 '''
 CLIENT
-Base ENDPOINT /api/profiles/
+Base ENDPOINT /api/userprofiles/
 '''
 urlpatterns = [
     path('<str:username>/', profile_detail_api_view),
