@@ -12,7 +12,7 @@ class StoryActionSerializer(serializers.Serializer):
     content = serializers.CharField(allow_blank=True, required=False)
 
     def validate_action(self, value):
-        value = value.lower().strip() # "Like " -> "like"
+        value = value.lower().strip() 
         if not value in STORY_ACTION_OPTIONS:
             raise serializers.ValidationError("This is not a valid action for stories")
         return value
