@@ -81,7 +81,7 @@ class StoryTestCase(TestCase):
         self.assertEqual(self.currentCount + 1, new_story_id)
 
     def test_story_create_api_view(self):
-        request_data = {"content": "This is my test story"}
+        request_data = {"content": "My test story"}
         client = self.get_client()
         response = client.post("/api/stories/create/", request_data)
         self.assertEqual(response.status_code, 201)
