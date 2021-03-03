@@ -27,7 +27,7 @@ class StoryTestCase(TestCase):
     
     def get_client(self):
         client = APIClient()
-        client.login(username=self.user.username, password='somepassword')
+        client.login(username=self.user.username, password='apassword')
         return client
     
     def test_story_list(self):
