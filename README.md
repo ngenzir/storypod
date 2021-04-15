@@ -1,5 +1,6 @@
 # storypod
- 
+
+This is an audio sharing and storage app.
  
 Many old people have stories to tell to their grandkids and their great grand kids etc.. about the life they lived, how things were back then when they were young, and other interesting things but nowadays kids don't get enough time to spend with their grandparents so those stories go untold. This project aims to make it easy to tell and share those stories to conserve history, culture, language and other interesting things in audio version.
  
